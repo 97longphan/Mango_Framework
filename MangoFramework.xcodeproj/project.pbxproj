@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				9EF8D335275608070031AF60 /* Components */,
-				9EDDC8B82755EEF700A61156 /* Base */,
 				9EDDC8B02755E5C100A61156 /* Resource */,
 				9EDDC8AD2755CAB400A61156 /* Source */,
 				9EDDC8C02756012300A61156 /* example */,
@@ -109,6 +108,7 @@
 		9EDDC8AD2755CAB400A61156 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9EDDC8B82755EEF700A61156 /* Base */,
 				9EDDC8AE2755CAC900A61156 /* Mango.swift */,
 				9EDDC8B62755E6B800A61156 /* RedView.swift */,
 				9EDDC8D32756026800A61156 /* MangoFrameworkManager.swift */,
