@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9E1EC7D92755C88C001F861F /* MangoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1EC7D82755C88C001F861F /* MangoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EDDC8AF2755CAC900A61156 /* Mango.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8AE2755CAC900A61156 /* Mango.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E1EC7D52755C88C001F861F /* MangoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MangoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1EC7D82755C88C001F861F /* MangoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MangoFramework.h; sourceTree = "<group>"; };
+		9EDDC8AE2755CAC900A61156 /* Mango.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mango.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 		9E1EC7CB2755C88C001F861F = {
 			isa = PBXGroup;
 			children = (
+				9EDDC8AD2755CAB400A61156 /* Source */,
 				9E1EC7D72755C88C001F861F /* MangoFramework */,
 				9E1EC7D62755C88C001F861F /* Products */,
 			);
@@ -48,6 +51,14 @@
 				9E1EC7D82755C88C001F861F /* MangoFramework.h */,
 			);
 			path = MangoFramework;
+			sourceTree = "<group>";
+		};
+		9EDDC8AD2755CAB400A61156 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9EDDC8AE2755CAC900A61156 /* Mango.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +104,7 @@
 				TargetAttributes = {
 					9E1EC7D42755C88C001F861F = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -129,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDDC8AF2755CAC900A61156 /* Mango.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +273,7 @@
 		9E1EC7DD2755C88C001F861F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -279,6 +293,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +302,7 @@
 		9E1EC7DE2755C88C001F861F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
