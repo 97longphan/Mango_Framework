@@ -12,5 +12,6 @@ Pod::Spec.new do |spec|
                	     }
   spec.author       = { '97longphan' => '97longphan@gmail.com' }
   spec.source       = { :git => 'https://github.com/97longphan/MangoFramework.git', :tag => spec.version }
+  spec.resources     = 'Resource/*'
   spec.source_files  = 'Source/*.{swift}'
 end
