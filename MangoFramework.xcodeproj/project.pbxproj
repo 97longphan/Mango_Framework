@@ -108,8 +108,8 @@
 		9EDDC8AD2755CAB400A61156 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9EF8D3392756177A0031AF60 /* Base */,
 				9EDDC8AE2755CAC900A61156 /* Mango.swift */,
-				9EDDC8B92755EF0C00A61156 /* BaseUIView.swift */,
 				9EDDC8B62755E6B800A61156 /* RedView.swift */,
 				9EDDC8D32756026800A61156 /* MangoFrameworkManager.swift */,
 			);
@@ -151,6 +151,14 @@
 				9EF8D336275608190031AF60 /* Constants.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		9EF8D3392756177A0031AF60 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9EDDC8B92755EF0C00A61156 /* BaseUIView.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
