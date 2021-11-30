@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MangoMango'
-  spec.version      = '0.0.4'
+  spec.version      = '0.0.5'
   spec.platform     = :ios, '13.0'
   spec.swift_version = '5.0'
   spec.summary      = 'A example framework'
@@ -13,5 +13,5 @@ Pod::Spec.new do |spec|
   spec.author       = { '97longphan' => '97longphan@gmail.com' }
   spec.source       = { :git => 'https://github.com/97longphan/MangoFramework.git', :tag => spec.version }
   spec.resources     = 'Resource/*'
-  spec.source_files  = 'Source/*'
+  spec.source_files  = 'Source/**/*'
 end
