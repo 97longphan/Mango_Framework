@@ -17,7 +17,6 @@
 		9EDDC8C92756012300A61156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDC8C72756012300A61156 /* Main.storyboard */; };
 		9EDDC8CB2756012500A61156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDC8CA2756012500A61156 /* Assets.xcassets */; };
 		9EDDC8CE2756012600A61156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDC8CC2756012500A61156 /* LaunchScreen.storyboard */; };
-		9EDDC8D42756026800A61156 /* MangoFrameworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8D32756026800A61156 /* MangoFrameworkManager.swift */; };
 		9EF8D3322756041F0031AF60 /* MangoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1EC7D52755C88C001F861F /* MangoFramework.framework */; };
 		9EF8D3332756041F0031AF60 /* MangoFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1EC7D52755C88C001F861F /* MangoFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9EF8D337275608190031AF60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF8D336275608190031AF60 /* Constants.swift */; };
@@ -61,7 +60,6 @@
 		9EDDC8CA2756012500A61156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EDDC8CD2756012600A61156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EDDC8CF2756012600A61156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EDDC8D32756026800A61156 /* MangoFrameworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoFrameworkManager.swift; sourceTree = "<group>"; };
 		9EF8D336275608190031AF60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +109,6 @@
 				9EF8D3392756177A0031AF60 /* Base */,
 				9EDDC8AE2755CAC900A61156 /* Mango.swift */,
 				9EDDC8B62755E6B800A61156 /* RedView.swift */,
-				9EDDC8D32756026800A61156 /* MangoFrameworkManager.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -277,7 +274,6 @@
 			files = (
 				9EF8D337275608190031AF60 /* Constants.swift in Sources */,
 				9EDDC8B72755E6B800A61156 /* RedView.swift in Sources */,
-				9EDDC8D42756026800A61156 /* MangoFrameworkManager.swift in Sources */,
 				9EDDC8AF2755CAC900A61156 /* Mango.swift in Sources */,
 				9EDDC8BA2755EF0C00A61156 /* BaseUIView.swift in Sources */,
 			);
