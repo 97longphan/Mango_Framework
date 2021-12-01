@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50291CAC5EF6FC918646AF1C /* Pods_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01B120B493A94B16215037 /* Pods_example.framework */; };
+		9E88658727572D5D00BDB6AC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88658627572D5D00BDB6AC /* BaseViewController.swift */; };
 		9EDDC8AF2755CAC900A61156 /* Mango.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8AE2755CAC900A61156 /* Mango.swift */; };
 		9EDDC8B32755E64F00A61156 /* RedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDC8B22755E64F00A61156 /* RedView.xib */; };
 		9EDDC8B72755E6B800A61156 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8B62755E6B800A61156 /* RedView.swift */; };
@@ -53,6 +54,7 @@
 		163D03B4E7EA7640FB5EC3F6 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
 		7F62EF4D647488ED7737E887 /* Pods-MangoFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoFramework.debug.xcconfig"; path = "Target Support Files/Pods-MangoFramework/Pods-MangoFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		9E1EC7D52755C88C001F861F /* MangoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MangoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E88658627572D5D00BDB6AC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9EDDC8AE2755CAC900A61156 /* Mango.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mango.swift; sourceTree = "<group>"; };
 		9EDDC8B22755E64F00A61156 /* RedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedView.xib; sourceTree = "<group>"; };
 		9EDDC8B62755E6B800A61156 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
@@ -100,7 +102,6 @@
 				062565F0A1DE7D401914A83D /* Pods-example.debug.xcconfig */,
 				163D03B4E7EA7640FB5EC3F6 /* Pods-example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				9EDDC8B92755EF0C00A61156 /* BaseUIView.swift */,
+				9E88658627572D5D00BDB6AC /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -364,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E88658727572D5D00BDB6AC /* BaseViewController.swift in Sources */,
 				9EF8D337275608190031AF60 /* Constants.swift in Sources */,
 				9EDDC8B72755E6B800A61156 /* RedView.swift in Sources */,
 				9EDDC8AF2755CAC900A61156 /* Mango.swift in Sources */,
