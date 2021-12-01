@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MangoMango'
-  spec.version      = '0.0.6'
+  spec.version      = '0.0.7'
   spec.platform     = :ios, '13.0'
   spec.swift_version = '5.0'
   spec.summary      = 'A example framework'
@@ -21,4 +21,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'RxSwift'
   spec.dependency 'RxCocoa'
   spec.dependency 'Action'
+  spec.dependency 'RxSwiftExt', '~> 5
+
 end

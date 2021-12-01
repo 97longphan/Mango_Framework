@@ -15,6 +15,8 @@ target 'MangoFramework' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Action'
+  pod 'RxSwiftExt', '~> 5
+  pod 'Alamofire', '~> 5.4'
 
   # Pods for MangoFramework
 end
