@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MangoMango'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.1'
   spec.platform     = :ios, '13.0'
   spec.swift_version = '5.0'
   spec.summary      = 'A example framework'
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Action'
   spec.dependency 'RxSwiftExt', '~> 5'
   spec.dependency 'Alamofire', '~> 5.4'
-  spec.ddependency 'Nuke'
-  spec.ddependency 'SnapKit', '~> 5.0.0'
+  spec.dependency 'Nuke'
+  spec.dependency 'SnapKit', '~> 5.0.0'
 
 end
