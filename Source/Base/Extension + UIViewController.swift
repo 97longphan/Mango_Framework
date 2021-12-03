@@ -37,5 +37,11 @@ extension Reactive where Base: UIViewController {
         let source = self.methodInvoked(#selector(Base.didMove)).map { $0.first as? UIViewController }
         return ControlEvent(events: source)
     }
+    
+    public var isLoading: Binder<Bool> {
+        Binder<Bool>(self.base) { _, isLoading in
+            ProgressHUD.setLoading(isLoading)
+        }
+    }
 }
 

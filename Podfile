@@ -17,6 +17,7 @@ target 'MangoFramework' do
   pod 'Action'
   pod 'RxSwiftExt', '~> 5'
   pod 'Alamofire', '~> 5.4'
-
+  pod 'Nuke'
+  pod 'SnapKit', '~> 5.0.0'
   # Pods for MangoFramework
 end
