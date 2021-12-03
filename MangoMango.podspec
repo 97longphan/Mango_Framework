@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MangoMango'
-  spec.version      = '0.1.1'
+  spec.version      = '0.1.2'
   spec.platform     = :ios, '13.0'
   spec.swift_version = '5.0'
   spec.summary      = 'A example framework'
