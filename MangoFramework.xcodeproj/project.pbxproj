@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		50291CAC5EF6FC918646AF1C /* Pods_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB01B120B493A94B16215037 /* Pods_example.framework */; };
-		9E1A19372759C3460015F424 /* Extension + UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A19362759C3460015F424 /* Extension + UITableView.swift */; };
-		9E289E9B2759C544004FEC4C /* ServiceCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E289E9A2759C544004FEC4C /* ServiceCommon.swift */; };
-		9E289E9E2759C670004FEC4C /* ProgessHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E289E9D2759C670004FEC4C /* ProgessHUD.swift */; };
 		9E289EA02759C892004FEC4C /* ScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E289E9F2759C892004FEC4C /* ScreenView.xib */; };
-		9E88658727572D5D00BDB6AC /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88658627572D5D00BDB6AC /* Extension + UIViewController.swift */; };
-		9E88658927572EC600BDB6AC /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E88658827572EC600BDB6AC /* ApiRouter.swift */; };
+		9E9F3F1D275DE8BA00AC1E5E /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9F3F1C275DE8BA00AC1E5E /* ScreenView.swift */; };
 		9EDDC8BA2755EF0C00A61156 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8B92755EF0C00A61156 /* BaseUIView.swift */; };
 		9EDDC8C22756012300A61156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8C12756012300A61156 /* AppDelegate.swift */; };
 		9EDDC8C42756012300A61156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDC8C32756012300A61156 /* SceneDelegate.swift */; };
@@ -55,13 +51,9 @@
 		062565F0A1DE7D401914A83D /* Pods-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.debug.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.debug.xcconfig"; sourceTree = "<group>"; };
 		163D03B4E7EA7640FB5EC3F6 /* Pods-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-example.release.xcconfig"; path = "Target Support Files/Pods-example/Pods-example.release.xcconfig"; sourceTree = "<group>"; };
 		7F62EF4D647488ED7737E887 /* Pods-MangoFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangoFramework.debug.xcconfig"; path = "Target Support Files/Pods-MangoFramework/Pods-MangoFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		9E1A19362759C3460015F424 /* Extension + UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UITableView.swift"; sourceTree = "<group>"; };
 		9E1EC7D52755C88C001F861F /* MangoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MangoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E289E9A2759C544004FEC4C /* ServiceCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCommon.swift; sourceTree = "<group>"; };
-		9E289E9D2759C670004FEC4C /* ProgessHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessHUD.swift; sourceTree = "<group>"; };
 		9E289E9F2759C892004FEC4C /* ScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenView.xib; sourceTree = "<group>"; };
-		9E88658627572D5D00BDB6AC /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
-		9E88658827572EC600BDB6AC /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		9E9F3F1C275DE8BA00AC1E5E /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
 		9EDDC8B92755EF0C00A61156 /* BaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
 		9EDDC8BF2756012300A61156 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDDC8C12756012300A61156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -182,11 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				9EDDC8B92755EF0C00A61156 /* BaseUIView.swift */,
-				9E88658627572D5D00BDB6AC /* Extension + UIViewController.swift */,
-				9E88658827572EC600BDB6AC /* ApiRouter.swift */,
-				9E1A19362759C3460015F424 /* Extension + UITableView.swift */,
-				9E289E9A2759C544004FEC4C /* ServiceCommon.swift */,
-				9E289E9D2759C670004FEC4C /* ProgessHUD.swift */,
+				9E9F3F1C275DE8BA00AC1E5E /* ScreenView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -372,12 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E289E9B2759C544004FEC4C /* ServiceCommon.swift in Sources */,
-				9E289E9E2759C670004FEC4C /* ProgessHUD.swift in Sources */,
-				9E88658727572D5D00BDB6AC /* Extension + UIViewController.swift in Sources */,
-				9E88658927572EC600BDB6AC /* ApiRouter.swift in Sources */,
+				9E9F3F1D275DE8BA00AC1E5E /* ScreenView.swift in Sources */,
 				9EF8D337275608190031AF60 /* Constants.swift in Sources */,
-				9E1A19372759C3460015F424 /* Extension + UITableView.swift in Sources */,
 				9EDDC8BA2755EF0C00A61156 /* BaseUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
